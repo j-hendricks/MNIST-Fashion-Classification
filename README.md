@@ -1,9 +1,9 @@
 # MNIST-Fashion-Classification
-Optimized a CNN to Identify Articles of Clothing using the MNIST Dataset
+Optimized a Simple Neural Network to Identify Articles of Clothing using the MNIST Dataset
 
 ## Overview
 
-A Convolutional Neural Network (CNN) was created based on Part 2 of the tutorial ["ML Zero to Hero"](https://www.youtube.com/watch?v=bemDFpNooA8), posted on Youtube by the Tensorflow Youtube channel. The goal of this project was to optimize the [code](https://goo.gle/34cHkDk) from this tutorial as well as visualize the results of the model. The method of optimization was to increase the epochs from 5 to 20. As a result, the accuracy increased from 88% to 89%. This result illustrates that increasing the number of epochs does not necessarily result in improved performance. When graphing the loss and accuracy of the model, the training and testing accuracies began to diverge near 20 epochs. If the the epochs were increased, the model would likely begin to overfit the training data and thereby significantly reduce the accuracy.
+A simple neural network was created based on Part 2 of the tutorial ["ML Zero to Hero"](https://www.youtube.com/watch?v=bemDFpNooA8), posted on Youtube by the Tensorflow Youtube channel. The goal of this project was to optimize the [code](https://goo.gle/34cHkDk) from this tutorial as well as visualize the results of the model. The method of optimization was to increase the epochs from 5 to 20. As a result, the accuracy increased from 88% to 89%. This result illustrates that increasing the number of epochs does not necessarily result in improved performance. When graphing the loss and accuracy of the model, the training and testing accuracies are close to diverging near 20 epochs. If the the epochs were increased, the model would likely begin to overfit the training data and thereby significantly reduce the accuracy.
 
 ## Results
 
