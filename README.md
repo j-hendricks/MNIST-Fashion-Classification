@@ -12,3 +12,5 @@ Here are two examples of what the images look like. Note that each article of cl
 ![training_images](images/training_images.png)
 
 Below is the loss and accuracy values between training and testing. Note that there is little increase in the testing accuracy as the number of epochs surpasses 5.
+
+![chart](images/performance_chart.png)
